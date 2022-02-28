@@ -5,3 +5,7 @@
 body {
   padding: 8px;
 }
+
+.my-router-active {
+  background-color: #efefef;
+}
