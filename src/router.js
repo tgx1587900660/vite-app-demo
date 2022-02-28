@@ -44,7 +44,6 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   // 如果未声明 next 函数，默认可以访问所有组件
   // 如果声明了 next 函数，则必须调用它，否则所有组件都无法访问
-  console.log('ok')
 
   // next() // 直接放行
   // next(false) // 不跳转
