@@ -1,11 +1,15 @@
+@import "tailwindcss";
+
 :root {
-  font-size: 16px;
+  font-size: 14px;
 }
 
+html,
 body {
-  padding: 8px;
+  margin: 0;
+  padding: 0;
 }
 
-.my-router-active {
-  background-color: #efefef;
+#app {
+  padding: 24px;
 }
